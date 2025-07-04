@@ -41,7 +41,7 @@ Dự án đã được cấu hình sẵn GitHub Actions để tự động deplo
    - Nếu repository có tên khác, hãy thay đổi `/ldh/` thành `/tên-repository/`
 
 4. **Tự động deploy:**
-   - Mỗi khi push code lên branch `main`, GitHub Actions sẽ tự động build và deploy
+   - Mỗi khi push code lên branch `master`, GitHub Actions sẽ tự động build và deploy
    - Có thể chạy thủ công từ tab "Actions" trong repository
 
 ### URL sau khi deploy:
