@@ -1,19 +1,26 @@
 import React, { useState, useEffect } from 'react'
 
+// Import ảnh như modules
+import hero1Img from '/assets/images/hero-1.jpg'
+import hero2Img from '/assets/images/hero-2.jpg'
+import hero3Img from '/assets/images/hero-3.jpg'
+import menuSetImg from '/assets/images/menu-set.jpg'
+import caNguImg from '/assets/images/ca-ngu.jpg'
+
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
-  
+
   const slides = [
     {
-      image: '/assets/images/hero-1.jpg',
+      image: hero1Img,
       alt: 'Soup Hoàng Gia'
     },
     {
-      image: '/assets/images/hero-2.jpg',
+      image: hero2Img,
       alt: 'Hải sản tươi sống'
     },
     {
-      image: '/assets/images/hero-3.jpg',
+      image: hero3Img,
       alt: 'Đặc sản biển'
     }
   ]
@@ -98,7 +105,7 @@ const HeroSection = () => {
             <div className="h-40 lg:h-48 xl:h-52 group">
               <div className="relative w-full h-full bg-white rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src="/assets/images/menu-set.jpg"
+                  src={menuSetImg}
                   alt="Menu Set Đặc Biệt"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -114,7 +121,7 @@ const HeroSection = () => {
             <div className="h-40 lg:h-48 xl:h-52 group">
               <div className="relative w-full h-full bg-white rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src="/assets/images/ca-ngu.jpg"
+                  src={caNguImg}
                   alt="Cá Ngừ Tươi Sống"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -189,7 +196,7 @@ const HeroSection = () => {
             <div className="h-40 md:h-48 group">
               <div className="relative w-full h-full bg-white rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="/assets/images/menu-set.jpg"
+                  src={menuSetImg}
                   alt="Menu Set Đặc Biệt"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -200,7 +207,7 @@ const HeroSection = () => {
             <div className="h-40 md:h-48 group">
               <div className="relative w-full h-full bg-white rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="/assets/images/ca-ngu.jpg"
+                  src={caNguImg}
                   alt="Cá Ngừ Tươi Sống"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -270,7 +277,7 @@ const HeroSection = () => {
             <div className="group">
               <div className="relative w-full h-32 bg-white rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="/assets/images/menu-set.jpg"
+                  src={menuSetImg}
                   alt="Menu Set Đặc Biệt"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -281,7 +288,7 @@ const HeroSection = () => {
             <div className="group">
               <div className="relative w-full h-32 bg-white rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="/assets/images/ca-ngu.jpg"
+                  src={caNguImg}
                   alt="Cá Ngừ Tươi Sống"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />

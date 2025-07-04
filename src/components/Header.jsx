@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logoImg from '/assets/images/logo.png'
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false)
@@ -17,10 +18,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img 
-              src="/assets/images/logo.png"
-              alt="Hoà Tuộc Logo" 
-              className="h-12 object-contain bg-ocean-blue px-3 py-1 rounded-lg" 
+            <img
+              src={logoImg}
+              alt="Hoà Tuộc Logo"
+              className="h-12 object-contain bg-ocean-blue px-3 py-1 rounded-lg"
             />
             <div>
               <h1 className="font-poppins font-bold text-xl text-ocean-blue">Hoà Tuộc</h1>

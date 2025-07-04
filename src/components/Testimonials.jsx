@@ -1,12 +1,17 @@
 import React from 'react'
 
+// Import ảnh customer
+import customer1Img from '/assets/images/customer-1.jpg'
+import customer2Img from '/assets/images/customer-2.jpg'
+import customer3Img from '/assets/images/customer-3.jpg'
+
 const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
       name: "Nguyễn Thị Hương",
       role: "Khách hàng thân thiết",
-      avatar: "/assets/images/customer-1.jpg",
+      avatar: customer1Img,
       rating: 5,
       comment: "Hải sản tươi ngon, giao hàng nhanh. Gia đình tôi đặt hàng đều đặn mỗi tuần. Chất lượng luôn ổn định, giá cả hợp lý."
     },
@@ -14,7 +19,7 @@ const Testimonials = () => {
       id: 2,
       name: "Trần Văn Thành",
       role: "Khách hàng VIP",
-      avatar: "/assets/images/customer-2.jpg",
+      avatar: customer2Img,
       rating: 5,
       comment: "Hoà Tuộc luôn đảm bảo chất lượng tuyệt vời. Nhân viên thân thiện, dịch vụ khách hàng xuất sắc. Tôi rất hài lòng."
     },
@@ -22,7 +27,7 @@ const Testimonials = () => {
       id: 3,
       name: "Lê Thị Minh",
       role: "Khách hàng mới",
-      avatar: "/assets/images/customer-3.jpg",
+      avatar: customer3Img,
       rating: 5,
       comment: "Lần đầu đặt hàng online mua hải sản, lo lắng lắm. Nhưng Hoà Tuộc làm tôi yên tâm hoàn toàn. Sẽ giới thiệu cho bạn bè."
     }

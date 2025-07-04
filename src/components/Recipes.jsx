@@ -1,26 +1,31 @@
 import React from 'react'
 
+// Import ảnh như modules để Vite tự động xử lý đường dẫn
+import phatNhayTuongImg from '/assets/images/phat-nhay-tuong.jpg'
+import cuaNauHapImg from '/assets/images/cua-nau-hap.jpg'
+import cuaHoangDeNuongImg from '/assets/images/cua-hoang-de-nuong.jpg'
+
 const Recipes = () => {
   const recipes = [
     {
       id: 1,
       title: "Phật Nhảy Tường",
       description: "Món Ngon Làm Phật Cũng \"Nhảy\" Qua Hàng Rào",
-      image: "/assets/images/phat-nhay-tuong.jpg",
+      image: phatNhayTuongImg,
       date: "01/04/2025"
     },
     {
       id: 2,
       title: "Cua Nâu Hấp Rượu Vang",
       description: "Ngon Đẳng Cấp Châu Âu",
-      image: "/assets/images/cua-nau-hap.jpg",
+      image: cuaNauHapImg,
       date: "01/04/2025"
     },
     {
       id: 3,
       title: "Cua Hoàng Đế Nướng Bơ Tỏi",
       description: "Ngon Sang Chảnh Từ Alaska",
-      image: "/assets/images/cua-hoang-de-nuong.jpg",
+      image: cuaHoangDeNuongImg,
       date: "01/04/2025"
     }
   ]

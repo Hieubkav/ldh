@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
 
+// Import ảnh sản phẩm
+import soDoSashimiImg from '/assets/images/so-do-sashimi.jpg'
+import ocVoiVoiImg from '/assets/images/oc-voi-voi.jpg'
+import soDiepImg from '/assets/images/so-diep.jpg'
+import baoNguImg from '/assets/images/bao-ngu.jpg'
+
 const FeaturedProducts = () => {
   const [activeFilter, setActiveFilter] = useState('all')
 
@@ -16,7 +22,7 @@ const FeaturedProducts = () => {
       id: 1,
       name: "SÒ ĐỎ SASHIMI (100gr)",
       category: "processed",
-      image: "/assets/images/so-do-sashimi.jpg",
+      image: soDoSashimiImg,
       price: "189.000đ",
       unit: "/100gr",
       rating: 5,
@@ -29,7 +35,7 @@ const FeaturedProducts = () => {
       id: 2,
       name: "Ốc Vòi Voi Sashimi",
       category: "processed",
-      image: "/assets/images/oc-voi-voi.jpg",
+      image: ocVoiVoiImg,
       price: "800.000đ",
       unit: "/phần",
       rating: 5,
@@ -69,7 +75,7 @@ const FeaturedProducts = () => {
       id: 5,
       name: "Sò Điệp MIYAGI",
       category: "domestic",
-      image: "/assets/images/so-diep.jpg",
+      image: soDiepImg,
       price: "240.000đ",
       originalPrice: "250.000đ",
       unit: "/kg",
@@ -83,7 +89,7 @@ const FeaturedProducts = () => {
       id: 6,
       name: "BÀO NGƯ HÀN QUỐC SỐNG",
       category: "imported",
-      image: "/assets/images/bao-ngu.jpg",
+      image: baoNguImg,
       price: "722.000đ",
       originalPrice: "760.000đ",
       unit: "/kg",

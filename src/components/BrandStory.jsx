@@ -1,4 +1,5 @@
 import React from 'react'
+import hoaTuocStoryImg from '/assets/images/hoa-tuoc-story.jpg'
 
 const BrandStory = () => {
   const stats = [
@@ -36,7 +37,7 @@ const BrandStory = () => {
             </div>
             <div>
               <img
-                src="/assets/images/hoa-tuoc-story.jpg"
+                src={hoaTuocStoryImg}
                 alt="Câu chuyện Hoà Tuộc"
                 className="rounded-xl shadow-lg w-full h-auto"
               />

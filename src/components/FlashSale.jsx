@@ -1,11 +1,17 @@
 import React from 'react'
 
+// Import ảnh flash sale
+import soDiepImg from '/assets/images/so-diep.jpg'
+import baoNguImg from '/assets/images/bao-ngu.jpg'
+import cuaHoangDeImg from '/assets/images/cua-hoang-de.jpg'
+import gheXanhImg from '/assets/images/ghe-xanh.jpg'
+
 const FlashSale = () => {
   const flashProducts = [
     {
       id: 1,
       name: "Sò Điệp MIYAGI (6-8C/KG)",
-      image: "/assets/images/so-diep.jpg",
+      image: soDiepImg,
       currentPrice: "240.000đ",
       originalPrice: "250.000đ",
       discount: "-4%",
@@ -14,7 +20,7 @@ const FlashSale = () => {
     {
       id: 2,
       name: "BÀO NGƯ HÀN QUỐC SỐNG",
-      image: "/assets/images/bao-ngu.jpg",
+      image: baoNguImg,
       currentPrice: "722.000đ",
       originalPrice: "760.000đ",
       discount: "-5%",
@@ -23,7 +29,7 @@ const FlashSale = () => {
     {
       id: 3,
       name: "CUA HOÀNG ĐẾ – KINGCRAB",
-      image: "/assets/images/cua-hoang-de.jpg",
+      image: cuaHoangDeImg,
       currentPrice: "1.370.800đ",
       originalPrice: "1.490.000đ",
       discount: "-8%",
@@ -32,7 +38,7 @@ const FlashSale = () => {
     {
       id: 4,
       name: "GHẸ XANH PHAN THIẾT",
-      image: "/assets/images/ghe-xanh.jpg",
+      image: gheXanhImg,
       currentPrice: "323.000đ",
       originalPrice: "340.000đ",
       discount: "-5%",

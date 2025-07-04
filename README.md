@@ -39,6 +39,7 @@ Dự án đã được cấu hình sẵn GitHub Actions để tự động deplo
 3. **Cấu hình base path:**
    - File `vite.config.js` đã được cấu hình với base path `/ldh/`
    - Nếu repository có tên khác, hãy thay đổi `/ldh/` thành `/tên-repository/`
+   - **Quan trọng:** Tất cả ảnh đã được import như modules để tương thích với GitHub Pages
 
 4. **Tự động deploy:**
    - Mỗi khi push code lên branch `master`, GitHub Actions sẽ tự động build và deploy
@@ -48,6 +49,11 @@ Dự án đã được cấu hình sẵn GitHub Actions để tự động deplo
 ```
 https://username.github.io/ldh/
 ```
+
+### ⚠️ Lưu ý về ảnh:
+- Tất cả ảnh đã được import như ES modules thay vì sử dụng đường dẫn tuyệt đối
+- Điều này đảm bảo ảnh load đúng trên GitHub Pages với base path
+- Vite sẽ tự động xử lý và tối ưu hóa ảnh khi build
 
 ## 🛠️ Công nghệ sử dụng
 
