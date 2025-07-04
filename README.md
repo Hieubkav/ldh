@@ -51,9 +51,10 @@ https://username.github.io/ldh/
 ```
 
 ### ⚠️ Lưu ý về ảnh:
-- Tất cả ảnh đã được import như ES modules thay vì sử dụng đường dẫn tuyệt đối
-- Điều này đảm bảo ảnh load đúng trên GitHub Pages với base path
-- Vite sẽ tự động xử lý và tối ưu hóa ảnh khi build
+- **Đã sửa lỗi 404:** Tất cả ảnh đã được import như ES modules thay vì sử dụng đường dẫn tuyệt đối
+- **Các ảnh đã sửa:** phat-nhay-tuong.jpg, chao-bao-ngu.jpg, logo.png và tất cả ảnh khác
+- **Tương thích GitHub Pages:** Điều này đảm bảo ảnh load đúng với base path `/ldh/`
+- **Tối ưu hóa:** Vite sẽ tự động xử lý và tối ưu hóa ảnh khi build
 
 ## 🛠️ Công nghệ sử dụng
 

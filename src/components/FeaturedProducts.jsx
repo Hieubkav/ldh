@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 // Import ảnh sản phẩm
 import soDoSashimiImg from '/assets/images/so-do-sashimi.jpg'
 import ocVoiVoiImg from '/assets/images/oc-voi-voi.jpg'
+import chaoBaoNguImg from '/assets/images/chao-bao-ngu.jpg'
+import gheXanhImg from '/assets/images/ghe-xanh.jpg'
 import soDiepImg from '/assets/images/so-diep.jpg'
 import baoNguImg from '/assets/images/bao-ngu.jpg'
 
@@ -48,7 +50,7 @@ const FeaturedProducts = () => {
       id: 3,
       name: "CHÁO BÀO NGƯ ĐẶC BIỆT",
       category: "imported",
-      image: "/assets/images/chao-bao-ngu.jpg",
+      image: chaoBaoNguImg,
       price: "299.000đ",
       unit: "/tô",
       rating: 5,
@@ -61,7 +63,7 @@ const FeaturedProducts = () => {
       id: 4,
       name: "GHẸ XANH PHAN THIẾT",
       category: "domestic",
-      image: "/assets/images/ghe-xanh.jpg",
+      image: gheXanhImg,
       price: "323.000đ",
       originalPrice: "340.000đ",
       unit: "/kg",

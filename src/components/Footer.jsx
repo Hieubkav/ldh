@@ -1,4 +1,5 @@
 import React from 'react'
+import logoImg from '/assets/images/logo.png'
 
 const Footer = () => {
   const quickLinks = [
@@ -64,9 +65,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <img 
-                src="/assets/images/logo.png"
-                alt="Hoà Tuộc Logo" 
+              <img
+                src={logoImg}
+                alt="Hoà Tuộc Logo"
                 className="h-10 object-contain bg-ocean-blue px-2 py-1 rounded"
               />
               <div>
